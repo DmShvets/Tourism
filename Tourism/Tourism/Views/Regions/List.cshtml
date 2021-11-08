@@ -1,0 +1,10 @@
+﻿<div>
+    @{
+        foreach (Region region in Model.allRegions)
+        {
+            @Html.Partial("Region", region);
+        }
+    }
+</div>
+
+
